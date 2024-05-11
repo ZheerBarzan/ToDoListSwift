@@ -82,6 +82,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA7A14B92BEFADE100D1A165 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA7A14BA2BEFADF700D1A165 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA7A14BB2BEFAE0700D1A165 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA7A14BC2BEFAE2900D1A165 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		FAF6F2282BEAAD6700D6DAC6 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +133,10 @@
 		FAF6F2332BEAAD6700D6DAC6 /* ToDoListSwift */ = {
 			isa = PBXGroup;
 			children = (
+				FA7A14BC2BEFAE2900D1A165 /* utils */,
+				FA7A14BB2BEFAE0700D1A165 /* Models */,
+				FA7A14BA2BEFADF700D1A165 /* ViewModels */,
+				FA7A14B92BEFADE100D1A165 /* Views */,
 				FAF957402BEE51D000192200 /* GoogleService-Info.plist */,
 				FAF6F2342BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift */,
 				FAF6F2362BEAAD6700D6DAC6 /* ContentView.swift */,
@@ -450,6 +482,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -477,6 +510,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
