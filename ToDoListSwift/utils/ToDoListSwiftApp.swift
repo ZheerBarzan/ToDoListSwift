@@ -15,7 +15,7 @@ struct ToDoListSwiftApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

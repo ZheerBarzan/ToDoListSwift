@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA7A14BE2BEFB03900D1A165 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A14BD2BEFB03900D1A165 /* MainView.swift */; };
 		FAF6F2352BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6F2342BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift */; };
-		FAF6F2372BEAAD6700D6DAC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6F2362BEAAD6700D6DAC6 /* ContentView.swift */; };
 		FAF6F2392BEAAD6900D6DAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF6F2382BEAAD6900D6DAC6 /* Assets.xcassets */; };
 		FAF6F23C2BEAAD6900D6DAC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF6F23B2BEAAD6900D6DAC6 /* Preview Assets.xcassets */; };
 		FAF6F2472BEAAD6900D6DAC6 /* ToDoListSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6F2462BEAAD6900D6DAC6 /* ToDoListSwiftTests.swift */; };
@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA7A14BD2BEFB03900D1A165 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FAF6F2312BEAAD6700D6DAC6 /* ToDoListSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF6F2342BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListSwiftApp.swift; sourceTree = "<group>"; };
-		FAF6F2362BEAAD6700D6DAC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FAF6F2382BEAAD6900D6DAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF6F23B2BEAAD6900D6DAC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAF6F23D2BEAAD6900D6DAC6 /* ToDoListSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ToDoListSwift.entitlements; sourceTree = "<group>"; };
@@ -85,6 +85,7 @@
 		FA7A14B92BEFADE100D1A165 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FA7A14BD2BEFB03900D1A165 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -106,6 +107,9 @@
 		FA7A14BC2BEFAE2900D1A165 /* utils */ = {
 			isa = PBXGroup;
 			children = (
+				FAF6F2382BEAAD6900D6DAC6 /* Assets.xcassets */,
+				FAF957402BEE51D000192200 /* GoogleService-Info.plist */,
+				FAF6F2342BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -137,10 +141,6 @@
 				FA7A14BB2BEFAE0700D1A165 /* Models */,
 				FA7A14BA2BEFADF700D1A165 /* ViewModels */,
 				FA7A14B92BEFADE100D1A165 /* Views */,
-				FAF957402BEE51D000192200 /* GoogleService-Info.plist */,
-				FAF6F2342BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift */,
-				FAF6F2362BEAAD6700D6DAC6 /* ContentView.swift */,
-				FAF6F2382BEAAD6900D6DAC6 /* Assets.xcassets */,
 				FAF6F23D2BEAAD6900D6DAC6 /* ToDoListSwift.entitlements */,
 				FAF6F23A2BEAAD6900D6DAC6 /* Preview Content */,
 			);
@@ -312,8 +312,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAF6F2372BEAAD6700D6DAC6 /* ContentView.swift in Sources */,
 				FAF6F2352BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift in Sources */,
+				FA7A14BE2BEFB03900D1A165 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,8 +491,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BokenRadio.com.ToDoListSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -519,8 +522,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BokenRadio.com.ToDoListSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

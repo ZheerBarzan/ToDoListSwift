@@ -23,12 +23,30 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>ToDoListSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FAF6F2302BEAAD6700D6DAC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF6F2412BEAAD6900D6DAC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FAF6F24B2BEAAD6900D6DAC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
