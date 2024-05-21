@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA63AE3E2BFD35DD00A8A442 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63AE3D2BFD35DD00A8A442 /* ProfileView.swift */; };
+		FA63AE402BFD360000A8A442 /* ToDoListItemsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63AE3F2BFD360000A8A442 /* ToDoListItemsViews.swift */; };
+		FA63AE422BFD362A00A8A442 /* NewItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63AE412BFD362A00A8A442 /* NewItemView.swift */; };
+		FA63AE442BFD364700A8A442 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63AE432BFD364700A8A442 /* LoginView.swift */; };
+		FA63AE462BFD366300A8A442 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63AE452BFD366300A8A442 /* SignUpView.swift */; };
+		FA63AE482BFD36B700A8A442 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63AE472BFD36B700A8A442 /* ToDoItemView.swift */; };
 		FA7A14BE2BEFB03900D1A165 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7A14BD2BEFB03900D1A165 /* MainView.swift */; };
 		FAF6F2352BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6F2342BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift */; };
 		FAF6F2392BEAAD6900D6DAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF6F2382BEAAD6900D6DAC6 /* Assets.xcassets */; };
@@ -39,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA63AE3D2BFD35DD00A8A442 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		FA63AE3F2BFD360000A8A442 /* ToDoListItemsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemsViews.swift; sourceTree = "<group>"; };
+		FA63AE412BFD362A00A8A442 /* NewItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemView.swift; sourceTree = "<group>"; };
+		FA63AE432BFD364700A8A442 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA63AE452BFD366300A8A442 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		FA63AE472BFD36B700A8A442 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 		FA7A14BD2BEFB03900D1A165 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		FAF6F2312BEAAD6700D6DAC6 /* ToDoListSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF6F2342BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListSwiftApp.swift; sourceTree = "<group>"; };
@@ -86,6 +98,12 @@
 			isa = PBXGroup;
 			children = (
 				FA7A14BD2BEFB03900D1A165 /* MainView.swift */,
+				FA63AE3D2BFD35DD00A8A442 /* ProfileView.swift */,
+				FA63AE3F2BFD360000A8A442 /* ToDoListItemsViews.swift */,
+				FA63AE412BFD362A00A8A442 /* NewItemView.swift */,
+				FA63AE432BFD364700A8A442 /* LoginView.swift */,
+				FA63AE452BFD366300A8A442 /* SignUpView.swift */,
+				FA63AE472BFD36B700A8A442 /* ToDoItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -312,8 +330,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA63AE442BFD364700A8A442 /* LoginView.swift in Sources */,
 				FAF6F2352BEAAD6700D6DAC6 /* ToDoListSwiftApp.swift in Sources */,
+				FA63AE402BFD360000A8A442 /* ToDoListItemsViews.swift in Sources */,
+				FA63AE462BFD366300A8A442 /* SignUpView.swift in Sources */,
+				FA63AE3E2BFD35DD00A8A442 /* ProfileView.swift in Sources */,
+				FA63AE482BFD36B700A8A442 /* ToDoItemView.swift in Sources */,
 				FA7A14BE2BEFB03900D1A165 /* MainView.swift in Sources */,
+				FA63AE422BFD362A00A8A442 /* NewItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
