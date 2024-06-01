@@ -9,10 +9,9 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        VStack{
-            
-            LoginView()
-        }.frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        VStack {
+           LoginView()
+        }
         
     }
 }
